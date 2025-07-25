@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Intel+One+Mono&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #654ea3, #eaafc8);
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            background-color: linear-gradient(to right, #654ea3, #eaafc8);
+            ;
+            font-family: 'Intel One Mono', monospace;
+            color: white;
+            border: 2px solid white;
+            border-radius: 10px;
+
+
+
+        }
+
+        nav ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            list-style: none;
+            cursor: pointer;
+
+        }
+        .Button_c{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top:300px ;
+        }
+
+
+        .Button_c Button {
+            background-color: white;
+            color: #654ea3;
+            border: 2px solid #654ea3;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        }
+        
+        .Button_c Button:hover {
+            background-color: #654ea3;
+            color: white;
+            transform: scale(1.05);
+            
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><strong>Home</strong></li>
+            <li><strong>Services</strong></li>
+            <li><strong>Profile</strong></li>
+            <li><strong>About</strong></li>
+            <li><strong>Contact</strong></li>
+        </ul>
+    </nav>
+    <div class="Button_c">
+    <button id="Button">Click</button>
+    </div>
+
+</body>
+
+</html>
